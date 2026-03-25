@@ -50,7 +50,7 @@ export default function Cart() {
                             return (
                                 <div key={item.id} className="bg-white rounded-2xl p-4 sm:p-6 shadow-sm border border-stone-100 flex gap-6 items-center">
                                     <div className="w-24 h-24 sm:w-32 sm:h-32 bg-stone-100 rounded-xl overflow-hidden flex-shrink-0">
-                                        <img src={`{item.image}`} alt={item.name} className="w-full h-full object-cover" />
+                                        <img src={item.image} alt={item.name} className="w-full h-full object-cover" />
                                     </div>
 
                                     <div className="flex-grow">
