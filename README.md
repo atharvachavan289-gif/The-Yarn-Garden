@@ -1,16 +1,67 @@
-# React + Vite
+Here is the perfect, professional README based on the exact structure you liked. You can copy everything inside the dark box below and paste it directly into your `README.md` file.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```markdown
+# 🧶 The Yarn Garden | Handcrafted Crochet Boutique
 
-Currently, two official plugins are available:
+A premium, fully responsive e-commerce web application designed for an artisanal crochet boutique. This project was built to demonstrate complex state management, custom authentication flows, and high-end frontend architecture.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+**[View Live Storefront](https://the-yarn-garden.vercel.app/)** *(Deployed via Vercel)*
 
-## React Compiler
+## ✨ Key Features
+* **🛍️ Persistent Shopping Cart:** Managed via the React Context API with `localStorage` syncing to ensure cart data (items, quantities, totals) remains consistent across all page reloads and routes.
+* **🔐 Real-Time Authentication:** A custom-built Login/Register system using `AuthContext` that triggers immediate UI updates in the navigation header without requiring a page refresh.
+* **🛤️ Multi-Page Routing:** A seamless Single Page Application (SPA) experience powered by React Router v6, featuring nested layouts and optimized navigation.
+* **🎨 Boutique Aesthetic:** Designed from scratch with a focus on "Slow Fashion" storytelling. Utilizes Tailwind CSS for responsive layouts, custom grid systems, and smooth micro-interactions.
+* **📦 Dynamic E-Commerce Logic:** Includes real-time subtotal calculations, conditional free-shipping logic, and accurate cart quantity management.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+* **Core:** React 18, JavaScript (ES6+)
+* **State Management:** React Context API
+* **Routing:** React Router v6
+* **Styling:** Tailwind CSS
+* **Build Tool:** Vite
+* **Deployment:** Vercel
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── components/
+│   ├── Header/       # Responsive Nav with Auth UI Logic
+│   ├── Home/         # Boutique Landing Page & Storytelling
+│   ├── Shopping/     # Product Grid & "Add to Cart" Actions
+│   └── Cart/         # Quantity Management, Math Logic & Checkout
+├── Context/
+│   ├── CartContext.jsx # Global Shopping Logic & LocalStorage Sync
+│   └── AuthContext.jsx # User Authentication State
+├── Layout.jsx        # Shared UI Wrapper (Header/Footer)
+└── main.jsx          # Router Configuration & App Entry
+```
+
+## 🏃‍♂️ How to Run Locally
+
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/atharvachavan289-gif/the-yarn-garden.git](https://github.com/atharvachavan289-gif/the-yarn-garden.git)
+    cd the-yarn-garden
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Launch the development server**
+    ```bash
+    npm run dev
+    ```
+    The project will open automatically at `http://localhost:5173`.
+
+---
+
+## 👨‍💻 Developer
+**Atharva Chavan**
+*3rd-Year Information Technology Engineering Student*
+*Navi Mumbai, India*
+```
