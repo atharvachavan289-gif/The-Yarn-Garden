@@ -6,7 +6,7 @@ Here is the perfect, professional README based on the exact structure you liked.
 A premium, fully responsive e-commerce web application designed for an artisanal crochet boutique. This project was built to demonstrate complex state management, custom authentication flows, and high-end frontend architecture.
 
 ## 🚀 Live Demo
-**[View Live Storefront](https://the-yarn-garden.vercel.app/)** *(Deployed via Vercel)*
+👉 **[Visit the Live Application](https://the-yarn-garden.vercel.app/)**
 
 ## ✨ Key Features
 * **🛍️ Persistent Shopping Cart:** Managed via the React Context API with `localStorage` syncing to ensure cart data (items, quantities, totals) remains consistent across all page reloads and routes.
