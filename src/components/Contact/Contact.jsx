@@ -82,7 +82,7 @@ export default function Contact() {
                             <label className="text-xs font-bold text-stone-500 uppercase ml-2">Email Address</label>
                             <input 
                                 type="email" 
-                                placeholder="shravani@example.com"
+                                placeholder="elizabeth@example.com"
                                 className="w-full px-6 py-4 bg-white border border-stone-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-amber-800/10 focus:border-amber-800 transition-all text-stone-800"
                             />
                         </div>
