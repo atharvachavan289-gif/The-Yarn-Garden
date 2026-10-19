@@ -90,7 +90,7 @@ export default function About() {
                 <span className="text-amber-800 font-bold uppercase tracking-widest text-xs">
                     The Artisan Behind the Hook
                 </span>
-                <h2 className="text-4xl font-serif text-stone-800">Hi, I'm Shravani</h2>
+                <h2 className="text-4xl font-serif text-stone-800">Hi, I'm Elizabeth</h2>
                 
                 <div className="space-y-4 text-stone-600 leading-relaxed text-lg">
                     <p>
@@ -106,7 +106,7 @@ export default function About() {
 
                 {/* Social Links / Signature */}
                 <div className="pt-6">
-                    <p className="font-serif italic text-2xl text-stone-800">- Shravani Dalvi</p>
+                    <p className="font-serif italic text-2xl text-stone-800">- Elizabeth</p>
                     <div className="flex justify-center md:justify-start gap-6 mt-6">
                         <a href="#" className="text-stone-400 hover:text-stone-800 transition-colors">Instagram</a>
                         <a href="#" className="text-stone-400 hover:text-stone-800 transition-colors">LinkedIn</a>
